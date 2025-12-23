@@ -10,7 +10,7 @@ const Header = () => {
         
         {/* Logo */}
         <div className="text-2xl font-bold text-teal-600">
-          <Link to="/">Spressify</Link>
+          <Link to="/">Pressify</Link>
         </div>
 
         {/* Desktop Navigation */}

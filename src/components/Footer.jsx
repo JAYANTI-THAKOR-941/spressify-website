@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* Logo & Description */}
         <div>
-          <h1 className="text-2xl font-bold text-teal-400">Spressify</h1>
+          <h1 className="text-2xl font-bold text-teal-400">Pressify</h1>
           <p className="mt-2 text-gray-400">
             Instant Wrinkle Removing Spray – Smooth your clothes anytime, anywhere.
           </p>
@@ -36,7 +36,7 @@ const Footer = () => {
         {/* Contact & Social */}
         <div>
           <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
-          <p>Email: support@spressify.com</p>
+          <p>Email: support@pressify.com</p>
           <p>Phone: +91 12345 67890</p>
 
           <div className="flex mt-4 space-x-4">
@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-gray-500 mt-8">
-        &copy; {new Date().getFullYear()} Spressify. All rights reserved.
+        &copy; {new Date().getFullYear()} Pressify. All rights reserved.
       </div>
     </footer>
   );

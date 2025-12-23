@@ -12,16 +12,16 @@ const ProductPage = () => {
         <div className="md:w-1/2">
           <img
             src={productImg}
-            alt="Spressify Spray"
+            alt="Pressify Spray"
             className="w-full max-w-md mx-auto rounded-xl shadow-lg"
           />
         </div>
 
         {/* Product Details */}
         <div className="md:w-1/2 flex flex-col gap-6">
-          <h1 className="text-4xl font-bold text-teal-600">Spressify - Instant Wrinkle Removing Spray</h1>
+          <h1 className="text-4xl font-bold text-teal-600">Pressify - Instant Wrinkle Removing Spray</h1>
           <p className="text-gray-700 text-lg">
-            Say goodbye to wrinkles instantly! Spressify is a portable, safe spray for all fabrics that smooths clothes in seconds—perfect for home or travel.
+            Say goodbye to wrinkles instantly! Pressify is a portable, safe spray for all fabrics that smooths clothes in seconds—perfect for home or travel.
           </p>
 
           {/* Features */}
@@ -37,7 +37,7 @@ const ProductPage = () => {
 
           {/* Price & Buy Button */}
           <div className="flex flex-col md:flex-row md:items-center gap-4 mt-6">
-            <span className="text-3xl font-bold text-teal-600">₹499</span>
+            <span className="text-3xl font-bold text-teal-600">₹170</span>
            <Link to="/checkout" className="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition font-semibold">
   Buy Now
 </Link>

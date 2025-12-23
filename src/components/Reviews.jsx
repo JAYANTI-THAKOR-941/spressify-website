@@ -6,7 +6,7 @@ const Reviews = () => {
     {
       name: "Anita Sharma",
       rating: 5,
-      comment: "Absolutely love it! My clothes look wrinkle-free instantly. Highly recommend Spressify!",
+      comment: "Absolutely love it! My clothes look wrinkle-free instantly. Highly recommend Pressify!",
     },
     {
       name: "Rohit Patel",

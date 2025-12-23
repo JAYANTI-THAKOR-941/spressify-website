@@ -20,7 +20,7 @@ const Checkout = () => {
 
     // Prepare order data
     const order = {
-      product: "Spressify Spray",
+      product: "Pressify Spray",
       price: 499,
       user: userDetails,
       paymentMethod: "Cash on Delivery",
@@ -40,7 +40,7 @@ const Checkout = () => {
     <div className="bg-gray-50 min-h-screen flex flex-col items-center py-20 px-6">
       <h1 className="text-4xl font-bold text-teal-600 mb-6">Checkout</h1>
       <p className="text-gray-700 mb-8 text-center max-w-xl">
-        You are one step away from getting your Spressify Instant Wrinkle Removing Spray!
+        You are one step away from getting your Pressify Instant Wrinkle Removing Spray!
       </p>
 
       <div className="bg-white p-10 rounded-xl shadow-lg w-full max-w-2xl flex flex-col gap-6">
@@ -49,7 +49,7 @@ const Checkout = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-4">Order Summary</h2>
           <div className="flex justify-between mb-2">
-            <span>Spressify Spray</span>
+            <span>Pressify Spray</span>
             <span>₹499</span>
           </div>
           <div className="flex justify-between mb-4 font-bold">

@@ -8,7 +8,7 @@ const Contact = () => {
       {/* Title */}
       <h2 className="text-4xl font-bold text-teal-600 mb-4">Contact Us</h2>
       <p className="text-gray-700 mb-12 text-center max-w-2xl">
-        Have questions about Spressify? Reach out to us through any of the following channels. Our team is always happy to assist you!
+        Have questions about Pressify? Reach out to us through any of the following channels. Our team is always happy to assist you!
       </p>
 
       {/* Contact Info Cards */}
@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="bg-white p-8 rounded-xl shadow-lg text-center">
           <FaEnvelope className="text-teal-600 mx-auto mb-3 text-3xl" />
           <h3 className="text-xl font-semibold text-teal-600 mb-2">Email</h3>
-          <p>support@spressify.com</p>
+          <p>support@pressify.com</p>
           <p className="text-gray-500 mt-2">We reply within 24 hours.</p>
         </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="bg-white p-8 rounded-xl shadow-lg text-center">
           <FaMapMarkerAlt className="text-teal-600 mx-auto mb-3 text-3xl" />
           <h3 className="text-xl font-semibold text-teal-600 mb-2">Address</h3>
-          <p>123 Spressify Lane, Ahmedabad, Gujarat, India</p>
+          <p>123 Pressify Lane, Ahmedabad, Gujarat, India</p>
         </div>
       </div>
 
