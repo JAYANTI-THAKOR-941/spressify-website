@@ -21,7 +21,7 @@ const Checkout = () => {
     // Prepare order data
     const order = {
       product: "Pressify Spray",
-      price: 499,
+      price: 170,
       user: userDetails,
       paymentMethod: "Cash on Delivery",
       date: new Date().toLocaleString(),
@@ -50,11 +50,11 @@ const Checkout = () => {
           <h2 className="text-2xl font-semibold mb-4">Order Summary</h2>
           <div className="flex justify-between mb-2">
             <span>Pressify Spray</span>
-            <span>₹499</span>
+            <span>₹170</span>
           </div>
           <div className="flex justify-between mb-4 font-bold">
             <span>Total</span>
-            <span>₹499</span>
+            <span>₹170</span>
           </div>
         </div>
 
